@@ -1,41 +1,18 @@
-# Student-Tracker
+# React + Vite
 
-# Overveiw: 
-This project is a lightweight web application built to help educators track student attendance, reading/writing progress, notes, and parent resources.
-I created this app because I teach Arabic reading and writing to 15–20 students on weekends, and I needed a centralized place to organize each student’s learning journey. This tool gives me (and other teachers) a simple and organized way to:
-- Record daily attendance
-- Track academic progress over time
-- Write notes for myself and for parents
-- Maintain a resource library for parents to support learning at home
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Features: 
+Currently, two official plugins are available:
 
-📅 Attendance Tracking: 
-- View all students on one page
-- Mark Present / Absent / Late
-- Store attendance history for each date
-  
-📊 Learning Progress Tracking: 
-- Track reading/writing milestones
-- Log lessons covered each week
-- Add teacher notes and parent notes
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-👨‍👩‍👧 Parent Resource Hub
-- Add and categorize learning materials
-- Links to reading tools, Tajweed resources, worksheets, etc.
-  
-👤 Student Profiles
-- Basic information (name, age, level)
-- View attendance + progress summary
-- Add comments or notes
+## React Compiler
 
-# Tech Stack: 
-Backend
-- Python
-- Flask
-- SQLite 
-- SQLAlchemy
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-Frontend
-- HTML & CSS
-- Bootstrap – layout and styling
+Note: This will impact Vite dev & build performances.
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
